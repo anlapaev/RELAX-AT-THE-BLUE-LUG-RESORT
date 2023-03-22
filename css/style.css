@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* 1 этаж */
+
+.floor-1 {
+    text-transform: uppercase;
+    display: flex;
+    height: 97px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    /* text-transform: lowerc+ase; */
+    display: flex;
+    align-items:flex-end;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 128%;
+    margin-left: 23px;
+    color: #434A5C;
+}
+
+.contacts {
+    display: flex;
+    align-items:flex-end;
+
+}
+
+.contacts a {
+    text-decoration: none;
+    color: black;
+    margin-left: 18px;
+}
+
+.contacts p{
+    color: #576698;
+    border-bottom: 1px solid #576698;
+}
+
+.line {
+    border:1px solid #7A7A7A ;
+}
+
+/* 2 этаж */
+
+.floor-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    text-transform: uppercase;
+}
+
+
+.list-nav-l {
+    display: flex;
+    list-style-type: none;
+    gap: 18px;
+}
+
+.list-nav-r {
+    display: flex;
+    list-style-type: none;
+    gap: 18px;
+}
+
+.listitem-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.listitem-nav a{
+    color: #7A7A7A;
+    text-decoration: none;
+}
+
+.listitem-nav a:hover { 
+    color: black;
+}
+
+.listitem-nav a:active { 
+    color: black;
+}
+
+.h-img {
+    margin-bottom: 25px;
+}
+
+/* main */
+
+.title-m {
+    margin-top: 27px;
+    margin-bottom: 32px;
+    max-width: 735px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 128%;
+    text-transform: uppercase;
+}
+
+.entertainment {
+    margin-top: 32px;
+    margin-bottom: 33px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 128%;
+    color: #BF6024;
+}
+
+.content-m1, .content-m2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-m1{
+    margin-bottom: 72px;
+}
+
+.content-m2{
+    margin-bottom: 92px;
+}
+
+.text-m {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 128%;
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+
+.resort-title {
+    margin-top: 67px;
+    margin-bottom: 31px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 128%;
+    color: #BF6024;
+}
+
+/* resort */
+
+
+
+.resort-content {
+    display: flex;
+    margin-bottom: 75px;
+}
+
+.apartments {
+    width: 555px;
+    height: 600px;
+    background-image: url('/img/05_m.png');
+}
+
+.apart-t {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 128%;
+    color: #FFFFFF;
+    padding-top: 489px;
+    padding-left: 34px;
+}
+.btn-a {
+    
+    display: flex;
+    margin-top: 24px;
+    margin-left: 34px;
+    gap: 18px;
+}
+
+.btn-a a {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.btn-over {
+    width: 145px;
+    height: 28px;
+    background-color: #BF6024;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paint-over {
+    color: #E5C6B2;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 128%;
+}
+
+.btn-empty {
+    width: 120px;
+    height: 28px;
+    border: 1px solid #E5C6B2;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.empty {
+    color: #E5C6B2;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 128%;
+}
+
+.blok-content {
+    
+    margin-left: 30px;
+}
+
+.hotel {
+    width: 540px;
+    height: 285px;
+    background: #EAEDF2;
+    margin-bottom: 30px;
+}
+
+.p-hotel {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 128%;
+    color: #141414;
+    padding-top: 84px;
+    padding-left: 73px;
+}
+
+.btn-hotel {
+    width: 144px;
+    height: 28px;
+    border: 1px solid #BF6024;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 28px;
+    margin-left: 73px;
+}
+
+.a-hotel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 128%;
+    text-transform: uppercase;
+    color: #BF6024;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.program {
+    width: 540px;
+    height: 285px;
+    background: #EAEDF2;
+}
+
+.p-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 128%;
+    color: #141414;
+    padding-left: 73px;
+    padding-top: 65px;
+}
+
+.p-basic {
+    width: 262px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 128%;
+    color: #141414;
+    padding-top: 10px;
+    padding-left: 73px;
+}
+
+.btn-program{
+    display: flex;
+    margin-top: 23px;
+    margin-left: 73px;
+    gap: 12px;
+}
+
+.btn-participate {
+    width: 125px;
+    height: 28px;
+    background-color: #BF6024;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-participate {
+    color: #E5C6B2;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 128%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-more {
+    width: 110px;
+    height: 28px;
+    border: 1px solid #BF6024;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-more {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 128%;
+    text-transform: uppercase;
+    color: #BF6024;
+    text-decoration: none;
+}
+
+/* footer */
+
+.footer-content {
+    margin-top: 56px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lug {
+    margin-bottom: 8px;
+}
+
+.ul-site li:first-child {
+    margin-bottom: 14px;
+}
+
+.ul-site li{
+    list-style-type: none;
+}
+.ul-site li a{
+    text-decoration: none;
+}
+
+.feedback-p b{
+    border-bottom: 1px solid black;
+}
+
+.law {
+    width: 340px;
+}
+
+.site-head {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    color: #424242;
+}
+
+.site-p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #424242;
+}
+
+.rus {
+    margin-top: 22px;
+}
